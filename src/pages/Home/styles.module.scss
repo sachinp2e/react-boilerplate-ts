@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.home {
+  padding: $spacing-lg 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $dark;
+  margin-bottom: $spacing-md;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: $secondary;
+  margin-bottom: $spacing-xl;
+}
+
+.featureCard {
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+  
+  :global(.card-body) {
+    padding: $spacing-lg;
+  }
+  
+  :global(.card-title) {
+    color: $primary;
+    margin-bottom: $spacing-md;
+  }
+}

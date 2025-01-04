@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  flex: 1;
+  padding: $spacing-lg 0;
+  background-color: $light;
+}
